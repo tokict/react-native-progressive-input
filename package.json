@@ -17,6 +17,7 @@
     "react-native": "0.x"
   },
   "dependencies": {
-    "react-native-vector-icons": "^2.1.0"
+    "prop-types": "^15.5.10",
+    "react-native-vector-icons": "^4.3.0"
   }
 }
