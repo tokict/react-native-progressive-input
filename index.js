@@ -18,11 +18,8 @@ const styles = StyleSheet.create({
     flex: 1,
     height: 40,
     marginLeft: 10,
-  },
-  activityIndicator: {
-    marginLeft: 5,
-    marginRight: 5,
-  },
+  }
+ 
 });
 
 class ProgressiveInput extends Component {
@@ -87,7 +84,7 @@ class ProgressiveInput extends Component {
     return (
       <ActivityIndicator
         animating={this.props.isLoading}
-        style={[styles.activityIndicator, this.props.activityIndicatorStyle, size]}
+        size="small"
       />
     );
   }
