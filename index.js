@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { TextInput, View, ActivityIndicator, TouchableOpacity, StyleSheet } from 'react-native';
-import Icon from 'react-native-vector-icons/FontAwesome';
+import Icon from 'react-native-vector-icons/FontAwesome5Pro';
 import PropTypes from 'prop-types'
 
 const styles = StyleSheet.create({
